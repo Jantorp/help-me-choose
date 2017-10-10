@@ -1,0 +1,72 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	font-family: Comic Sans;
+}
+
+h1 {
+	font-family: 'Give You Glory', cursive;
+	font-size: 50px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+
+}
+.inputSection {
+	margin: 30px 0px 50px 0px;
+	display: flex;
+	width: 400px;
+}
+
+.inputs {
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+}
+input {
+	margin-top: 10px;
+}
+.addOption {
+	margin-top: 10px;
+	width:20%;
+}
+
+
+button {
+	padding: 10px
+}
+
+.btn-2i {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+}
+.btn-2 {
+    background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+.btn {
+    border: none;
+    background: #cb4e4e;
+    cursor: pointer;
+    padding: 35px 40px 40px 30px;
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
