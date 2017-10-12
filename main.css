@@ -50,6 +50,16 @@ button {
 	padding: 20px;
 	font-family: inherit;
 	font-size: inherit;
+}
+
+.resultSection {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+
+}
 
 /*other/*
 
