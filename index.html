@@ -61,8 +61,12 @@
 	             		console.log(winner)
 	             		$('.resultSection').text(winner)
 					};
-             			$('.submit').click(submit)
+					    $('.submit').click(function() {
+	             				$('h1').text('...och vinnaren är');
+	             			});
 
+             			$('.submit').click(submit)
+             		
 
 
 
